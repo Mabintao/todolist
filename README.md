@@ -150,3 +150,5 @@ gulp.task('default', ['serve']);
     3.current < 1  ?  到时间了  要放音乐
 
     4.如果 complate 等于 true  跳过循环
+    
+    5.设置多个任务同时提醒 存在bug 尚未解决
