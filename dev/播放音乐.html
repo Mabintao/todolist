@@ -1,0 +1,13 @@
+<!DOCTYPE html><html lang=en><head><meta charset=UTF-8><title>Document</title></head><body><input type=button value=play id=btn><audio src=alert.mp3 id=music></audio><script type=text/javascript>
+		var btn = document.querySelector("#btn");
+		var music = document.querySelector("#music");
+		btn.onclick=function(){
+			if(btn.value=="play"){
+				music.play();
+				btn.value="stop"
+			}else{
+				music.pause();
+				btn.value="play"
+			}
+		}
+	</script></body></html>
